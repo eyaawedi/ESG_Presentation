@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Manipulation of ESG Reporting Assessment</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fc;
+        }
+        .slide {
+            min-height: 85vh;
+            margin: 40px auto;
+            padding: 50px;
+            max-width: 900px;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            border-left: 8px solid #6366f1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .slide-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #312e81;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #a5b4fc;
+            padding-bottom: 10px;
+        }
+        .key-metric-box {
+            background-color: #f0f9ff;
+            border-radius: 12px;
+            padding: 20px;
+            transition: transform 0.3s ease;
+        }
+        .key-metric-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+        }
+        .diff-positive {
+            color: #10b981;
+            font-weight: 700;
+        }
+        .diff-negative {
+            color: #ef4444;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body class="p-8">
+    <div class="slide">
+        <h1 class="text-6xl font-extrabold text-center text-indigo-700 mb-6">
+            Analyzing the Effect of AI Manipulation on ESG Reporting Assessment
+        </h1>
+        <p class="text-2xl text-center text-gray-600 mt-4">
+            Chapter 3: Practical Implementation Guide
+        </p>
+        <div class="text-center mt-12 text-gray-500">
+            <p>Researchers: Akrem Majdi & Eya Aouadi</p>
+        </div>
+    </div>
+    <div class="slide">
+        <h2 class="slide-title">1. Project Objective</h2>
+        <p class="text-xl text-gray-700 mb-8 leading-relaxed">
+            The core goal of this study was to analyze how <strong class="text-indigo-600">AI-driven language manipulation</strong> of a snippet from a Corporate ESG (Environmental, Social, and Governance) report affects its subsequent automated assessment.
+        </p>
+        <div class="bg-indigo-50 border-l-4 border-indigo-500 p-6 rounded-lg">
+            <p class="text-lg font-semibold text-indigo-800">In short: Can we use AI to make a negative or balanced report look purely positive to another AI assessor?</p>
+        </div>
+    </div>
+    <div class="slide">
+        <h2 class="slide-title">2. Methodology: Baseline vs. Manipulated</h2>
+        <div class="grid grid-cols-2 gap-6 text-center">
+            <div class="key-metric-box bg-gray-50 border-t-4 border-gray-400">
+                <h3 class="text-2xl font-bold text-gray-800 mb-3">Baseline Snippet</h3>
+                <ul class="list-none text-left space-y-2 text-gray-600">
+                    <li><span class="font-semibold">Content:</span> Original, objective text.</li>
+                    <li><span class="font-semibold">Characteristics:</span> Included positive claims, but also qualifiers and mentions of ongoing challenges (e.g., moderate emission increase).</li>
+                </ul>
+            </div>
+            <div class="key-metric-box bg-pink-50 border-t-4 border-pink-500">
+                <h3 class="text-2xl font-bold text-pink-800 mb-3">Manipulated Snippet (via ChatGPT)</h3>
+                <ul class="list-none text-left space-y-2 text-gray-600">
+                    <li class="font-bold text-pink-700">Goal: Present only positive achievements.</li>
+                    <li><span class="font-semibold">Key Changes:</span> Removed qualifiers ("however," "we recognize").</li>
+                    <li><span class="font-semibold">Key Changes:</span> Removed mentions of absolute emission increases.</li>
+                    <li><span class="font-semibold">Key Changes:</span> Used a more celebratory and definitive tone.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="slide">
+        <h2 class="slide-title">3. Assessment Criteria (Evaluated by Gemini)</h2>
+        <div class="grid grid-cols-3 gap-6 text-center mt-8">
+            <div class="key-metric-box">
+                <div class="text-4xl text-indigo-500 mb-2">📊</div>
+                <p class="font-bold text-lg">Overall ESG Score</p>
+                <p class="text-sm text-gray-500">(Scale 0-100)</p>
+            </div>
+            <div class="key-metric-box">
+                <div class="text-4xl text-indigo-500 mb-2">😀</div>
+                <p class="font-bold text-lg">Sentiment Analysis</p>
+                <p class="text-sm text-gray-500">(Scale -5 to +5)</p>
+            </div>
+            <div class="key-metric-box">
+                <div class="text-4xl text-indigo-500 mb-2">⚠️</div>
+                <p class="font-bold text-lg">Risk Assessment</p>
+                <p class="text-sm text-gray-500">(Low, Medium, High)</p>
+            </div>
+            <div class="key-metric-box col-span-3">
+                <div class="text-4xl text-indigo-500 mb-2">📝</div>
+                <p class="font-bold text-lg">Completeness Check & Red Flags</p>
+                <p class="text-sm text-gray-500">(Checks for sufficient context and greenwashing tactics)</p>
+            </div>
+        </div>
+    </div>
+    <div class="slide">
+        <h2 class="slide-title">4. Core Results: The Quantitative Shift</h2>
+        <p class="text-xl text-gray-700 mb-10 font-semibold text-center">
+            The manipulation resulted in significant, quantifiable improvements across all assessment metrics.
+        </p>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+            <div class="key-metric-box border-b-4 border-green-500">
+                <p class="text-xs text-gray-500 mb-1">ESG Score (0-100)</p>
+                <p class="text-4xl font-extrabold text-green-600">+8</p>
+                <p class="text-lg font-semibold text-gray-800">Points</p>
+                <p class="text-sm text-gray-500 mt-1">(70 → 78)</p>
+            </div>
+            <div class="key-metric-box border-b-4 border-green-500">
+                <p class="text-xs text-gray-500 mb-1">Sentiment (-5 to +5)</p>
+                <p class="text-4xl font-extrabold text-green-600">+2</p>
+                <p class="text-lg font-semibold text-gray-800">Points</p>
+                <p class="text-sm text-gray-500 mt-1">(+2 → +4)</p>
+            </div>
+            <div class="key-metric-box border-b-4 border-green-500">
+                <p class="text-xs text-gray-500 mb-1">Risk Reclassification</p>
+                <p class="text-2xl font-extrabold text-red-500 line-through">Medium</p>
+                <p class="text-xl font-extrabold text-green-600">Low Risk</p>
+                <p class="text-sm text-gray-500 mt-1">Classification Shift</p>
+            </div>
+            <div class="key-metric-box border-b-4 border-green-500">
+                <p class="text-xs text-gray-500 mb-1">AI Red Flags</p>
+                <p class="text-4xl font-extrabold text-green-600">50%</p>
+                <p class="text-lg font-semibold text-gray-800">Reduction</p>
+                <p class="text-sm text-gray-500 mt-1">(2 Flags → 1 Flag)</p>
+            </div>
+        </div>
+    </div>
+    <div class="slide">
+        <h2 class="slide-title">5. Conclusion and Key Takeaway: The AI Greenwashing Effect</h2>
+        <ul class="list-disc ml-6 space-y-4 text-xl text-gray-700">
+            <li><strong>The Quantitative Impact:</strong> A simple linguistic manipulation increased the ESG score by **8 points** and lowered the risk from **Medium to Low**.</li>
+            <li><strong>AI Vulnerability:</strong> The study suggests that AI-driven text analysis, when performed solely on a snippet, is vulnerable to manipulation techniques (a form of <strong class="text-red-500">"AI-optimized greenwashing"</strong>).</li>
+            <li><strong>Language is Powerful:</strong> Manipulations like using <strong class="text-indigo-600">celebratory language</strong> and <strong class="text-indigo-600">removing qualifiers</strong> directly and positively influenced the AI's assessment.</li>
+            <li><strong>Context Matters:</strong> By simply removing mentions of absolute emission increases and challenges, the report appeared to be a flawless performance, despite the underlying data gaps.</li>
+            <li><strong>Final Result:</strong> Language manipulation created a perception of better overall environmental performance without requiring any concrete policy or real-world improvement.</li>
+        </ul>
+    </div>
+    <div class="slide bg-indigo-50">
+        <h2 class="slide-title text-center">Thank You</h2>
+        <p class="text-3xl font-extrabold text-center text-indigo-700 mt-8">
+            Questions?
+        </p>
+    </div>
+</body>
+</html>
